@@ -3,6 +3,8 @@ a hacked spacyr version to work without anaconda
 
 Point it to your spacy install 
 
+python -m venv /home/knut/spacyr 
+
 pip install spacy==3.6.1 
 
 
