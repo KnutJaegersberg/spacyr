@@ -11,7 +11,7 @@ pip install -U 'spacy[cuda12x]'
 
   python -m spacy download en_core_web_trf
 
-You also want to tell spacy to use the gpu by default, i.e. by adding prefer_gpu() in the init as shown in the file here in the repo. 
+You also want to tell spacy to use the gpu by default, i.e. by adding prefer_gpu() in the init.py as shown in the file here in the repo. 
 
   library(spacyr)
 
