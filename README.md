@@ -3,5 +3,11 @@ a hacked spacyr version to work without anaconda
 
 Point it to your spacy install 
 
-library(spacyr)
-spacy_initialize(model = "en_core_web_trf", python_executable = "/home/knut/spacyr/bin/python3")
+pip install spacy==3.6.1
+
+
+  library(spacyr)
+
+
+
+  spacy_initialize(model = "en_core_web_trf", virtualenv = "/home/knut/spacyr/")
